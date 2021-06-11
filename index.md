@@ -17,7 +17,7 @@ This was started in June 2021 by `ralismark` -- contact them if you wanna say so
 
 ## Joining
 
-If you want to join, submit a PR to this repo adding a single file to `_people`.
+If you want to join, submit a PR to [this repo]({{ site.github.repository_url }}) adding a single file to `_people`.
 It should be named `YOUR_NAME.html` -- this name won't be shown anywhere, it's (currently) only used for the navbar.
 Its content should be like this (you can also have a look at other people's entries to see some examples):
 
@@ -42,7 +42,7 @@ To do so, include the following code, replacing `YOUR_NAME` with the username yo
 ```html
 <iframe
   style="width: 100%; height: 3rem; border: none"
-  src="http://{{ site.host }}/embed/YOUR_NAME"
+  src="{{ site.github.url }}/embed/YOUR_NAME"
 ></iframe>
 ```
 
