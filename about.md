@@ -2,6 +2,8 @@
 title: "About"
 ---
 
+[go back to the index](.)
+
 This webring was created in June 2021 and is currently managed by `ralismark`.
 
 ## Joining
@@ -22,7 +24,7 @@ Its content should be like this (you can also have a look at other people's entr
 - `<description>` is a brief description, used in that listing at the top of the page.
   This accepts html!
 
-You can also message me on discord `ralismark#4976` with the above fields and I'll create an entry for you.
+Alternatively, message `ralismark#4976` on discord with the above info -- they'll create an entry for you.
 
 ## How to embed the navbar
 
@@ -43,4 +45,4 @@ Here's an example of what it looks like (with an added border so you can see the
   src="embed/ralismark"
 ></iframe>
 
-Unfortunately, due to how iframes work, it's pretty hard to style what's *inside* the frame -- background colour is pretty much the only thing you can change.
+Unfortunately, due to how iframes work, you can't really style what's *inside* the frame -- background colour is pretty much the only thing you can change.

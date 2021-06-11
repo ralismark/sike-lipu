@@ -13,3 +13,7 @@ A webring for cool people associated with toki pona!
 </ul>
 
 If you want to know more or want to join, see the [about page](about).
+
+---
+
+*sike lipu* is hosted on github pages -- [source code here]({{ site.github.repository_url }}).
