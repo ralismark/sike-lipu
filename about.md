@@ -34,7 +34,7 @@ To do so, include the following code, replacing `YOUR_NAME` with the username yo
 ```html
 <iframe
   style="width: 100%; height: 3rem; border: none"
-  src="{{ site.github.url }}/embed/YOUR_NAME"
+  src="{{ site.url }}{{ site.baseurl }}/embed/YOUR_NAME"
 ></iframe>
 ```
 
