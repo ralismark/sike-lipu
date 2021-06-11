@@ -13,8 +13,6 @@ A webring for cool people associated with toki pona!
 {% endfor %}
 </ul>
 
-This was started in June 2021 by `ralismark` -- contact them if you wanna say something about this webring.
-
 ## Joining
 
 If you want to join, submit a PR to [this repo]({{ site.github.repository_url }}) adding a single file to `_people`.
