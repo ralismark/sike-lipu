@@ -13,4 +13,4 @@ A webring for cool people associated with toki pona!
 {% endfor %}
 </ul>
 
-If you want to know more or want to join, see the [about page]({% link about.md %}).
+If you want to know more or want to join, see the [about page](about).
