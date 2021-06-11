@@ -1,0 +1,16 @@
+title: kulupu lipu pi ma pona
+
+collections:
+  people:
+    output: true
+    permalink: /embed/:title
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "_people"
+    values:
+      layout: embed
