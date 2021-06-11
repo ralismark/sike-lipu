@@ -1,4 +1,5 @@
 ---
+title: "About"
 ---
 
 This webring was created in June 2021 and is currently managed by `ralismark`.

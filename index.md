@@ -1,7 +1,6 @@
 ---
+title: "Welcome to the ma pona webring!"
 ---
-
-# Welcome to the ma pona webring!
 
 A webring for cool people associated with toki pona!
 
