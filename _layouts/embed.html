@@ -24,7 +24,7 @@ body {
 #mid { text-align: center; }
 #right { text-align: right; }
 
-a {
+#left, #right {
   flex-grow: 1;
   flex-basis: 0;
 }
@@ -37,16 +37,20 @@ a {
     {% assign last = site.people | last %}
     {% assign prev = page.previous | default: last %}
 
-    <a id="left"
-       title="{{ prev.name }}"
-       href="{{ prev.href }}"
-       >&laquo; {{ prev.name }}</a>
+    <span id="left">
+      <a
+        title="{{ prev.name }}"
+        href="{{ prev.href }}"
+        >&laquo; {{ prev.name }}</a>
+    </span>
     <span id="mid">
       &lang; <a href="{{ "/" | relative_url }}">{{ site.title }}</a> &rang;
     </span>
-    <a id="right"
-       title="{{ next.name }}"
-       href="{{ next.href }}"
-       >{{ next.name }} &raquo;</a>
+    <span id="right">
+      <a
+        title="{{ next.name }}"
+        href="{{ next.href }}"
+        >{{ next.name }} &raquo;</a>
+    </span>
   </body>
 </html>
