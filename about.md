@@ -5,11 +5,12 @@ title: "About"
 [go back to the index](.)
 
 This webring was created in June 2021 and is currently managed by `ralismark`.
+For suggestions, issues, and changes, make a PR to [the repo]({{ site.github.repository_url }}) or message `ralismark#4976` on discord.
 
 ## Joining
 
 If you want to join, submit a PR to [this repo]({{ site.github.repository_url }}) adding a single file to `_people`.
-It should be named `YOUR_NAME.html` -- this name won't be shown anywhere, it's (currently) only used for the navbar.
+It should be named `YOUR_NAME.html` -- this name won't be shown anywhere, it's (currently) only used for the navbar embed url.
 Its content should be like this (you can also have a look at other people's entries to see some examples):
 
 	---
@@ -23,8 +24,6 @@ Its content should be like this (you can also have a look at other people's entr
 - `<name>` is the name shown above and as the tooltip for navbar links
 - `<description>` is a brief description, used in that listing at the top of the page.
   This accepts html!
-
-Alternatively, message `ralismark#4976` on discord with the above info -- they'll create an entry for you.
 
 ## How to embed the navbar
 
