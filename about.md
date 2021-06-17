@@ -5,7 +5,7 @@ title: "About"
 [go back to the index](.)
 
 This webring was created in June 2021 and is currently managed by `ralismark`.
-For suggestions, issues, and changes, make a PR to [the repo]({{ site.github.repository_url }}) or message `ralismark#4976` on discord.
+For suggestions, issues, and changes, make a PR/open an issue on [the repo]({{ site.github.repository_url }}), or message `ralismark#4976` on discord.
 
 ## Joining
 
@@ -20,15 +20,18 @@ Its content should be like this (you can also have a look at other people's entr
 
 	<description>
 
-- `<url>` is the url of what your website that gets linked to from this webring
-- `<name>` is the name shown above and as the tooltip for navbar links
+- `<url>` is the url of what your website that gets linked to from this webring.
+  You should add the navbar to this page (and maybe others in your website) after you get accepted -- see below.
+- `<name>` is the name shown above and as the tooltip for navbar links.
 - `<description>` is a brief description, used in that listing at the top of the page.
   This accepts html!
 
+After you join, you should add the navbar to the linked page!
+
 ## How to embed the navbar
 
-Once you're part of this webring, you can also add a navigation bar to your website.
-To do so, include the following code, replacing `YOUR_NAME` with the username you registered with.
+Once you're part of this webring, it's highly recommended that you add a navigation bar to your website.
+To do so, include the following html snippet, replacing `YOUR_NAME` with the username you registered with.
 
 ```html
 <iframe

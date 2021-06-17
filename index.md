@@ -4,6 +4,9 @@ title: "Welcome to the ma pona webring!"
 
 A webring for cool people associated with toki pona!
 
+Currently, there are **{{ site.people | size }}** members:
+
+<!-- this is to support html in the descriptions -->
 <ul>
 {% for person in site.people %}
 <li>
