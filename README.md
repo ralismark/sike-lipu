@@ -10,3 +10,5 @@ This repo contains the source code for the webring, and uses Jekyll in novel way
 
 This repo still showcases how the above are implemented.
 The webring can be run locally using the `serve.sh` script and accessed at `http://localhost:5000`, provided that docker is installed.
+
+**If you're looking to build a webring inspired by this, have a look at the [wreath webring template](https://github.com/ralismark/wreath-webring-template)!**
